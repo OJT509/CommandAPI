@@ -19,6 +19,7 @@ namespace CommandAPI.Data
             {
                 throw new ArgumentNullException(nameof(cmd));
             }
+            _context.CommandItems.Add(cmd);
         }
 
         public void DeleteCommand(Command cmd)
@@ -43,7 +44,7 @@ namespace CommandAPI.Data
 
         public void UpdateCommand(Command cmd)
         {
-            throw new System.NotImplementedException();
+            //
         }
     }
 }
