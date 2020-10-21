@@ -48,7 +48,7 @@ namespace CommandAPI.Tests
 
             testCommand.CommandLine = "Change CommandLine";
 
-            Assert.Equal("Change CommandLin", testCommand.CommandLine);
+            Assert.Equal("Change CommandLine", testCommand.CommandLine);
         }
     }
 }
